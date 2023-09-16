@@ -28,6 +28,8 @@ sudo make hex
 sudo make flash
 ```
 
+> currently im using vsdsquadronPRO/caravel_firmware/caravel_flash/user_keypad/hello_world.c
+
 Wait for flashing to complete.
 wait for `L1` to start flashing.
 Disconnect power.
