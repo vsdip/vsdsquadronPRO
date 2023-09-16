@@ -1,0 +1,3 @@
+[submodule "examples/riscduino_examples"]
+	path = examples/riscduino_examples
+	url = https://github.com/dineshannayya/riscduino_examples.git
