@@ -36,7 +36,7 @@ Disconnect power.
 
 ## Arduino IDE Setup
 
-The packages for VSDSquadronPRO need to be added and installed in Arduino IDE to upload code via the IDE. 
+The packages for VSDSquadronPRO need to be added and installed in Arduino IDE to upload code. 
 
 Refer to this link for the procedure : [Arduino IDE setup](https://github.com/dineshannayya/riscduino_firmware)
 
