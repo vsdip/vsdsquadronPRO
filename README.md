@@ -41,7 +41,7 @@ The packages for VSDSquadronPRO need to be added and installed in Arduino IDE to
 Refer to this link for the procedure : [Arduino IDE setup](https://github.com/dineshannayya/riscduino_firmware)
 
 Note:
-1) Its recommended to use ```version 2.2.1``` of [Arduino IDE](https://www.arduino.cc/en/software). 
+1) It is recommended to use ```version 2.2.1``` of [Arduino IDE](https://www.arduino.cc/en/software). 
 2) It is supported on Windows and Linux/Ubuntu.
 3) Check if the necessary drivers are installed/updated. 
 
