@@ -34,6 +34,17 @@ Wait for flashing to complete.
 wait for `L1` to start flashing.
 Disconnect power.
 
+## Arduino IDE Setup
+
+The packages for VSDSquadronPRO need to be added and installed in Arduino IDE to upload code via the IDE. 
+
+Refer to this link for the procedure : [Arduino IDE setup](https://github.com/dineshannayya/riscduino_firmware)
+
+Note:
+1) Its recommended to use ```version 2.2.1``` of [Arduino IDE](https://www.arduino.cc/en/software). 
+2) It is supported on Windows and Linux/Ubuntu.
+3) Check if the necessary drivers are installed/updated. 
+
 ## Arduino IDE interface and observations
 
 The code is flashed over the serial interface. When starting the ```upload code``` sequence the UART interface should not be used by the program.
