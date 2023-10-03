@@ -8,3 +8,21 @@ void servo_write(int pin, int deg) //this function is used to run the servo moto
   digitalWrite(pin,LOW);
   delay(20);
 }
+
+void setup() 
+{
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+  Serial.println("moving Servo to 0 ");
+  servo_write(3,0);
+  delay(3000);
+  Serial.println("moving Servo to 90 ");
+  servo_write(3,90);
+  delay(3000);
+  Serial.println("moving Servo to 180 ");
+  servo_write(3,180);
+  delay(3000);
+}
