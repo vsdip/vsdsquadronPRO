@@ -8,11 +8,15 @@ After every
 - Reset push on VSDSquadronPro
 - Caravel Flash
 
-```L1``` stays on for 20 seconds and then flashes with a Frequency of 1Hz
+```L1``` stays on for __20 seconds__ and then flashes with a Frequency of __1Hz__.
+
+<!-- 
 (Plan to change this to a short flash every 5 seconds)
+-->
 
 > Note that after the 20 seconds few specific registers are set and the blinking begins to indicate completion of bootup sequence.
 
+<!---
 (Have to check if the 20 second time can be cut half)
 
 ## Correctly flashing caravel
@@ -33,6 +37,7 @@ sudo make flash
 Wait for flashing to complete.
 wait for `L1` to start flashing.
 Disconnect power.
+--->
 
 ## Arduino IDE Setup
 
