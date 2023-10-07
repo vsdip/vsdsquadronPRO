@@ -38,6 +38,22 @@ Wait for flashing to complete.
 wait for `L1` to start flashing.
 Disconnect power.
 --->
+## Power Report
+
+### Power Pins
+[1]. 5V: The input voltage to the Riscduino board when it’s using an external power source 
+[2]. USB: 5V input from the USB can also be used to power the Riscduino
+[3]. GND: Ground pins
+### Digital Pins
+[1]. Digital high outputs +3.3V
+[2]. Digital low outputs 0V
+### Note 
+[1]. It is highly recommended that an external supply is used to power sensors and actuators 
+[2]. 3.3V or 5V inputs to sensors can be derived from the 5V supply that’s used to power the board
+[3]. Analog data can be written to the pins by using PWM
+
+
+
 
 ## Arduino IDE Setup
 
